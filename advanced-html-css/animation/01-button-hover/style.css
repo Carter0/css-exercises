@@ -16,4 +16,13 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+
+
+  /* Your Stuff */
+  transition: transform 1000ms;
+  transition-timing-function: ease;
+}
+
+button:hover {
+  transform: scale(1.2);
 }
